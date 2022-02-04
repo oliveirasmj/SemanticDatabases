@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/olive/ontologies/2021/10/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/olive/ontologies/2021/10/untitled-ontology-13"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:projeto="http://www.ua.pt/estga/MIA/bds/projeto#"
+     xmlns:untitled-ontology-13="http://www.semanticweb.org/olive/ontologies/2021/10/untitled-ontology-13#">
+    <owl:Ontology rdf:about="http://www.ua.pt/estga/MIA/bds/projeto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#InternamentoDoServico -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#InternamentoDoServico"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoDoInternamento -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoDoInternamento"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoDoTipo -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoDoTipo"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoRealizadaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#IntervencaoRealizadaPor"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#ServicoDoHospital -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#ServicoDoHospital"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#especialistaEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#especialistaEm"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#estaInternadoNoInternamento -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#estaInternadoNoInternamento"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#estaLocalizado -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#estaLocalizado"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#fazParte -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#fazParte"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#pertenceAoServico -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#pertenceAoServico"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#possuiDoenca -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#possuiDoenca"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#trabalhaEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#trabalhaEm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#DataInicio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#DataInicio"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#DataNasc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#DataNasc"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Nome -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Nome"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Auxiliar_de_Saude -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Auxiliar_de_Saude">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Funcionario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Dirigente -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Dirigente">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Funcionario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Distrito -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Distrito"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Doenca -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Doenca"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Enfermeiro -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Enfermeiro">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Funcionario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Especialidade -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Especialidade"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Funcionario -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Funcionario">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Hospital -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Hospital"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Internamento -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Internamento"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Intervencao -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Intervencao"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Medico -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Medico">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Funcionario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Paciente -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Paciente">
+        <rdfs:subClassOf rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Pessoa -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Pessoa"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Servico -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Servico"/>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Tipo_Intervencao -->
+
+    <owl:Class rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Tipo_Intervencao"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Anestesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Anestesia">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Tipo_Intervencao"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anestesia</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Aveiro -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Aveiro">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Distrito"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aveiro</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Cardiologia -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Cardiologia">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Especialidade"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiologia</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar_do_Baixo_Vouga -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar_do_Baixo_Vouga">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar"/>
+        <projeto:estaLocalizado rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Aveiro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Diabetes -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Diabetes">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Doenca"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Doutor_Miguel_Oliveira -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Doutor_Miguel_Oliveira">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Medico"/>
+        <projeto:especialistaEm rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Cardiologia"/>
+        <projeto:pertenceAoServico rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_I"/>
+        <projeto:trabalhaEm rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Hospital_Infante_D_Pedro"/>
+        <projeto:DataNasc rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-03-03T08:25:00</projeto:DataNasc>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miguel Oliveira</projeto:Nome>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dr. Miguel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Enfermeira_Ana_Santos -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Enfermeira_Ana_Santos">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Enfermeiro"/>
+        <projeto:especialistaEm rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Pediatria"/>
+        <projeto:pertenceAoServico rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_I"/>
+        <projeto:trabalhaEm rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Hospital_Infante_D_Pedro"/>
+        <projeto:DataNasc rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2001-10-16T08:25:00</projeto:DataNasc>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana Santos</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Hospital_Infante_D_Pedro -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Hospital_Infante_D_Pedro">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Hospital"/>
+        <projeto:fazParte rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Centro_Hospitalar_do_Baixo_Vouga"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospital Infante D. Pedro</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Insulinoterapia -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Insulinoterapia">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Tipo_Intervencao"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulinoterapia</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Internamento1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Internamento1">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Internamento"/>
+        <projeto:InternamentoDoServico rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_I"/>
+        <projeto:DataInicio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-01-01 00:00:00</projeto:DataInicio>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internamento 1</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Intervencao1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Intervencao1">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Intervencao"/>
+        <projeto:IntervencaoDoInternamento rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Internamento1"/>
+        <projeto:IntervencaoDoTipo rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Insulinoterapia"/>
+        <projeto:IntervencaoRealizadaPor rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Doutor_Miguel_Oliveira"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervencao 1</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Intervencao2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Intervencao2">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Intervencao"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intervencao 2</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Pediatria -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Pediatria">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Especialidade"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatria</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Senhor_Cheio_De_Dores -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Senhor_Cheio_De_Dores">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Paciente"/>
+        <projeto:estaInternadoNoInternamento rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Internamento1"/>
+        <projeto:possuiDoenca rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Diabetes"/>
+        <projeto:DataNasc rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1950-02-02T08:00:00</projeto:DataNasc>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senhor Cheio De Dores</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_I -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_I">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Servico"/>
+        <projeto:ServicoDoHospital rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Hospital_Infante_D_Pedro"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Servico Cardiologia I</projeto:Nome>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.ua.pt/estga/MIA/bds/projeto#Servico_Cardiologia_II">
+        <rdf:type rdf:resource="http://www.ua.pt/estga/MIA/bds/projeto#Servico"/>
+        <projeto:Nome rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Servico Cardiologia II</projeto:Nome>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
